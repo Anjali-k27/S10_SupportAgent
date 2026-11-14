@@ -34,15 +34,17 @@ python -m spacy download en_core_web_lg
 
 Create a `.env` file in the project root:
 ```
-GOOGLE_API_KEY=your-gemini-api-key-here
+OPENROUTER_API_KEY=your-openrouter-api-key-here
+OPENROUTER_MODEL=openai/gpt-4o-mini
 ```
 
 Or export it directly:
 ```bash
-export GOOGLE_API_KEY=your-gemini-api-key-here
+export OPENROUTER_API_KEY=your-openrouter-api-key-here
+export OPENROUTER_MODEL=openai/gpt-4o-mini
 ```
 
-Get a key at: https://aistudio.google.com/app/apikey
+Get a key at: https://openrouter.ai/keys
 
 ---
 
